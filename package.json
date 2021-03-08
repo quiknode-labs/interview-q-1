@@ -1,0 +1,21 @@
+{
+  "name": "quikdex",
+  "version": "1.0.0",
+  "description": "A tool for pre-populating PG w/ calls from blockchain nodes",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production node src/index.js",
+    "local_start": "node src/index.js"
+  },
+  "author": "Auston B",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^5.0.5",
+    "express": "^4.17.1",
+    "pg": "^8.3.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.1",
+    "sequelize-cli": "^6.2.0"
+  }
+}
