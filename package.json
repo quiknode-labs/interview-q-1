@@ -11,8 +11,8 @@
   "author": "Auston B",
   "license": "ISC",
   "dependencies": {
-    "ethers": "^5.0.5",
-    "express": "^4.17.1",
+    "ethers": "^6.0.0",
+    "express": "^4.21.1",
     "pg": "^8.3.0",
     "pg-hstore": "^2.3.3",
     "sequelize": "^6.3.1",
